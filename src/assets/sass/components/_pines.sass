@@ -1,0 +1,39 @@
+
+#pines
+
+  .hotgraphic-container
+    text-align: center
+    margin-top: 1rem
+    position: relative
+
+    img
+      max-width: 80%
+
+    .pin
+      position: absolute
+      font-size: 2rem
+      color: $white
+      background-color: $bg-primary
+      width: 3.5rem
+      height: 3.5rem
+      border: 3px solid $white
+      font-family: "Ecopetrol"
+      display: inline-block
+      border-radius: 50% 50% 50%
+      transform: rotate(-45deg)
+      margin: -20px 0 0 -20px
+      cursor: pointer
+      transition: background-color 0.3s ease-in-out
+
+      &:hover
+        background-color: $bg-color-sec
+
+      &.seen
+        background-color: $bg-color-sec
+
+      span
+        position: relative;
+        transform: rotate(45deg);
+        display: inline-block;
+        margin: -20px;
+        top: 0px;

@@ -1,0 +1,34 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+$family-sans-serif: Verdana, "Verdana", sans-serif;
+$font-principal: "Ecopetrol";
+$family-primary: $family-sans-serif;
+
+$bg-primary: #00665b;
+$bg-color-sec: #d1d800;
+$green: #005246;
+$bold-color: #f88700;
+$bg-blue: #003e72;
+$yellow: #f8de1a;
+$orange: #dc8f00;
+$red: #911a1a;
+$primary: $green;
+$success: $bg-color-sec;
+$info: $bg-color-sec;
+$progress-bar-background-color: $bg-color-sec;
+
+$mdi-filename: "materialdesignicons";
+$mdi-font-name: "Material Design Icons";
+$mdi-font-family: "materialdesignicons";
+$mdi-font-weight: "regular";
+$mdi-font-path: "./fonts";
+$mdi-font-size-base: 24px;
+$mdi-css-prefix: mdi;
+$mdi-version: "2.0.46";
+
+$zindex-menu: 1000;
+$zindex-footer: 900;
+
+$text-strong: $bg-color-sec;
+
+$c-titles: 3.25rem;

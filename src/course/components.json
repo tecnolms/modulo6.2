@@ -1,0 +1,2392 @@
+[{
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Instrucciones de Navegación",
+        "layout": "full",
+        "text": "",
+        "img": {
+            "src": "instructions.png",
+            "alt": "Gif de Bienvenida"
+        },
+        "_route": 1,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-2",
+        "_route": 2,
+        "parentId": "m-1",
+        "type": "collapse",
+        "title": "Objetivos",
+        "text": "Al finalizar esta primera parte módulo, usted estará en capacidad de :",
+        "instruction": "Haga clic en <b>cada signo +</b> para desplegar la información",
+        "items": [{
+                "id": 0,
+                "title": "Objetivo 1",
+                "text": "Operar equipos de bombeo de la instalación..",
+                "isActive": true
+            },
+            {
+                "id": 1,
+                "title": "Objetivo 2",
+                "text": "Establecer parámetros de alarma.",
+                "isActive": false
+            },
+            {
+                "id": 2,
+                "title": "Objetivo 3",
+                "text": "Desarrollar con facilidad procedimientos de arranque y parada normales.",
+                "isActive": false
+            },
+            {
+                "id": 3,
+                "title": "Objetivo 4",
+                "text": "Realizar correctamente cambios de baches.",
+                "isActive": false
+            },
+            {
+                "id": 4,
+                "title": "Objetivo 5",
+                "text": "Calcular con facilidad sobrantes / faltantes..",
+                "isActive": false
+            },
+            {
+                "id": 5,
+                "title": "Objetivo 6",
+                "text": "Diligenciar la documentación de operaciones requerida.",
+                "isActive": false
+            }
+        ],
+        "audio": ""
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Introducción al módulo",
+        "layout": "full",
+        "text": "",
+        "img": {
+            "src": "pg3.png",
+            "alt": ""
+        },
+        "_route": 3,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Contenido del módulo",
+        "layout": "full",
+        "text": "",
+        "img": {
+            "src": "pg4.png",
+            "alt": ""
+        },
+        "_route": 4,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_8.mp3"
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Iniciemos con el tema 1: operación del equipo de bombeo",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son:",
+        "img": {
+            "src": "pg5.png",
+            "alt": ""
+        },
+        "_route": 5,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 6,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Operación del equipo de bombeo",
+        "text": "",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-13_Modulo6_P2.pdf",
+            "img": "6/1.png"
+        }],
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "6/3.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "¿",
+                "text": "",
+                "img": {
+                    "src": "",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "audio": {
+            "src": "M6_p2_13.mp3"
+        },
+
+        "graphic": {
+            "src": "6/2.png",
+            "alt": ""
+        }
+
+    },
+    {
+        "id": "c-15",
+        "_route": 7,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Efectos de la distancia",
+        "text": "<p>La distancia total que debe recorrer el producto se transportará se incluye en los cálculos, cuando se establezcan los valores de operación en las unidades de la línea principal.</p><p>El volumen y la densidad del producto existente en la línea también se deben tener en cuenta.</p>",
+        "instruction": "",
+
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "7/2.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "Ejemplo",
+                "text": "<p>Por ejemplo, en el caso en que se esté despachando diesel oil, cuanto más lejos se deba transportar el diesel, mayor será la presión que se requiere en la estación de origen para mantener una rata de flujo determinada.</p><p>La potencia se debe aumentar en el punto de origen para mantener la presión necesaria.</p>",
+                "img": {
+                    "src": "7/2.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "7/1.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-28",
+        "_route": 8,
+        "parentId": "m-1",
+        "type": "pines",
+        "title": "Efectos de la distancia",
+        "text": "",
+        "instruction": "Haga clic en las <b>zonas resaltadas de la imagen de la Unidad de Bombeo</b> para ampliar la información sobre efectos de la distancia en la operación de este equipo.",
+        "hotgraphic": {
+            "src": "pg8.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "title": "",
+                "text": "<p>Operaciones debe determinar el tipo de bombas y el número de ellas que se necesitan para lograr el nivel de trabajo requerido. </p><p>Si se debe encender más de una bomba, se sigue un procedimiento específico para cada sitio en particular.</p>",
+                "position": {
+                    "x": 37,
+                    "y": 53
+                }
+            },
+            {
+                "id": 2,
+                "title": "",
+                "text": "<p>Las primeras bombas que se encienden en todo el oleoducto serán las de la estación de origen. </p><p>Las bombas booster que operan en serie deben seguir una secuencia de encendido, siendo las bombas aguas arriba las que se encienden primero. </p><p>Se debe encender primero la unidad de la línea principal de mayor capacidad.</p>",
+                "position": {
+                    "x": 56,
+                    "y": 58
+                }
+            },
+            {
+                "id": 3,
+                "title": "",
+                "text": "<p>Cuando la presión en el lugar de origen es la indicada, se deben encender las siguientes estaciones aguas debajo de una forma similar a la descrita para cualquier tipo y número de unidades que se requiera.</p><p>En líneas que tienen más de una estación durante el trayecto total, todas las estaciones deben estar bombeando a la misma rata de flujo.</p>",
+                "position": {
+                    "x": 39,
+                    "y": 61
+                }
+            },
+            {
+                "id": 4,
+                "title": "",
+                "text": "<p>La estación receptora del producto siempre debe mantener una presión de succión positiva para soportar el despacho que llega. </p><p>Cada estación debe estar sincronizada para trabajar en conjunto con la mayor eficiencia.</p>",
+                "position": {
+                    "x": 56,
+                    "y": 68
+                }
+            },
+            {
+                "id": 5,
+                "title": "",
+                "text": "<p>Se debe prestar mucha atención a las lecturas de las variables y los cálculos que sean necesarios mientras se procede con el despacho.</p><p>Si hay una fluctuación inusual en las variables del oleoducto, se debe contactar todas las estaciones para encontrar y corregir los posibles motivos y ajustar el programa según se requiera. </p>",
+                "position": {
+                    "x": 39,
+                    "y": 72
+                }
+            }
+
+        ],
+        "fuente": "",
+        "note": " ",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-6",
+        "parentId": "m-1",
+        "type": "media",
+        "title": "Vigilancia del patio de tanques",
+        "text": "<p>Los Patios de Tanques se deben inspeccionar según los lineamientos de DOT y de la Empresa después de cada turno y antes de realizar ingresos en la bitácora registrando el nombre del empleado que realiza la inspección y la hora de la misma.</p><p>En la siguiente animación conocerá los elementos que debe contemplar la inspección en el patio de tanques.</p>",
+        "video": {
+            "sources": [{
+                "src": "video_22_M6.mp4",
+                "type": "video/mp4"
+            }],
+            "options": {
+                "poster": "video1.jpg",
+                "autoplay": false,
+                "volume": 0.8
+            }
+        },
+        "_route": 9,
+        "fuente": "",
+        "audio": ""
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Bombas portátiles",
+        "text": "<p>Las bombas portátiles son pequeñas unidades de bombeo, de baja cabeza que se utilizan para operaciones específicas. </p><p>Se utilizan, por lo general, <b>para sustituir una bomba en mal estado o para limpieza en áreas donde no resulta práctico utilizar equipo convencional.</b> </p><p>Un ejemplo de este tipo de bombas portátiles es la bomba Desmi DOP 250, que utiliza una fuente de energía hidráulica y tiene una capacidad de 625 barriles por hora.</p>",
+        "img": {
+            "src": "pg10.png",
+            "alt": ""
+        },
+        "_route": 10,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_23.mp3"
+        }
+    },
+    {
+        "id": "c-28",
+        "_route": 11,
+        "parentId": "m-1",
+        "type": "pines",
+        "title": "Efectos de la distancia",
+        "text": "",
+        "instruction": "Haga <b>clic sobre los números</b>para conocer las ventajas de las bombas portátiles.",
+        "hotgraphic": {
+            "src": "pg11.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "title": "",
+                "text": "<p></p>Estas bombas son ideales para la industria del petróleo porque su suministro de energía es hidráulico.</p><p>Esto significa que el suministro de energía se puede ubicar lejos de la bomba con conexión hidráulicas hacia la bomba,  desde una atmósfera externa que no sea peligrosa.</p>",
+                "position": {
+                    "x": 45,
+                    "y": 47
+                }
+            },
+            {
+                "id": 2,
+                "title": "",
+                "text": "<p>Otros medios de proporcionar energía a las bombas portátiles incluyen sistemas neumáticos, energía eléctrica, alterna o directa (AC o DC), motores a gasolina y motores diesel.</p><p>Las fuentes de energía se determinan según la atmósfera donde se van a utilizar las bombas.</p>",
+                "position": {
+                    "x": 45,
+                    "y": 55
+                }
+            },
+            {
+                "id": 3,
+                "title": "",
+                "text": "<p>Otra ventaja de las bombas portátiles es que se pueden operar desde los sistemas de toma de energía de la maquinaria que se encuentra en el sitio.</p><p>Se pueden conectar directamente a los sistemas hidráulicos de la maquinaria, situados fuera de las atmósferas peligrosas donde hay riesgo de que se produzca ignición.</p>",
+                "position": {
+                    "x": 45,
+                    "y": 64
+                }
+            },
+            {
+                "id": 4,
+                "title": "",
+                "text": "<p>Las cuadrillas de emergencia del oleoducto por lo general tienen este equipo a disposición como parte de la operación, bien sea si es una retroexcavadora con un cargador o una barcaza en el mar. </p><p>Los sistemas de motor hidráulico por lo general se consideran más seguros durante las emergencias, debido a que no se utiliza electricidad de alto voltaje.</p > ",
+                "position": {
+                    "x": 45,
+                    "y": 72
+                }
+            },
+            {
+                "id": 5,
+                "title": "",
+                "text": "<p>Estas bombas con frecuencia pueden estar sumergidas directamente en el producto y requieren menos conexiones en línea en terrenos escarpados. </p><p>Se utilizan para bombear derrames que deben ser recogidos directamente hacia camiones cisterna, barcazas, botes o barcos.</p>",
+                "position": {
+                    "x": 45,
+                    "y": 80
+                }
+            }
+
+        ],
+        "fuente": "",
+        "note": " ",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 12,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Bombas de respaldo",
+        "text": "Existen bombas de respaldo, <b>que permanecen disponibles para reemplazar las unidades de bombeo</b> de la línea principal u otras bombas que estén en servicio en un momento determinado y salgan de línea. Se deben incluir en el plan de contingencia. ",
+        "instruction": "",
+
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "12/2.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "¿Qué pasa si falla una unidad de la línea principal?",
+                "text": "<p>Si falla una unidad de la línea principal, se reemplazará con una bomba de respaldo. </p><p>Si, por cualquier circunstancia, se necesita más presión y flujo, se puede poner en línea una bomba de respaldo.</p><p> Las bombas booster también se pueden utilizar para ayudar al movimiento de producto desde tanques de almacenamiento hacia el oleoducto para su despacho. </p>",
+                "img": {
+                    "src": "12/3.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "12/1.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": "M6_p2_29.mp3"
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Cambio de modo de control",
+        "layout": "full",
+        "text": "Ocasionalmente, debido a eventos tales como la pérdida de las comunicaciones o señales de monitoreo normales o como respuesta a otras necesidades operacionales, se debe cambiar el control de la estación desde el Centro de Control a control local. Las operaciones se controlan a través de comunicaciones alternas y entre los involucrados.",
+        "img": {
+            "src": "pg13.png",
+            "alt": ""
+        },
+        "_route": 13,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-8",
+        "parentId": "m-1",
+        "type": "matching",
+        "title": "Repasemos",
+        "text": "Con el fin de revisar cómo vamos con la comprensión de lo visto hasta el momento, le invitamos a realizar el siguiente ejercicio de apareamiento:",
+        "items": [{
+                "id": 1,
+                "text": "Cuando el oleoducto está operando en condiciones normales, el movimiento de producto se determina por la cantidad de ______________que se aplica en las unidades de bombeo de la línea principal.",
+                "pair": 4
+            },
+            {
+                "id": 2,
+                "text": "2. La ______________total que debe recorrer el producto que se va a transportar se debe incluir en los cálculos. El ____________y la _______________del producto existente en la línea también se deben tener en cuenta.",
+                "pair": 5
+            },
+            {
+                "id": 3,
+                "text": "3. Las primeras bombas que se encienden en todo el oleoducto serán ______________________________.",
+                "pair": 6
+            },
+            {
+                "id": 4,
+                "text": "Potencia",
+                "pair": 2
+            },
+            {
+                "id": 5,
+                "text": "Las de la estación de origen",
+                "pair": 1
+            },
+            {
+                "id": 6,
+                "text": "Las bombas portátiles",
+                "pair": 3
+            }
+        ],
+        "_route": 14,
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Continuemos con el tema 2: presiones de operación, flujo y controladores de temperatura ",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son: ",
+        "img": {
+            "src": "pg15.png",
+            "alt": ""
+        },
+        "_route": 15,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 16,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Presiones de operación, flujo y controladores de temperatura",
+        "text": "Los oleoductos están diseñados para operar dentro de unos límites establecidos. Mantener la presión y el flujo dentro de este límite es importante para garantizar la operación segura del oleoducto, para permitir una medición precisa del producto y para asegurarse de que se cumplan los programas de despacho.",
+        "instruction": "<b>Haga clic en las preguntas</b> para ampliar la información de este tema.",
+
+        "items": [{
+                "id": 0,
+                "img": {
+                    "src": "16/2.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "<p>Muchos oleoductos son operados y monitoreados por equipos de control remoto. Los sistemas de computador sofisticados, tales como el SCADA, proporcionan medios para monitorear de manera remota dispositivos de protección que detectan fluctuaciones de cualquier tipo en el oleoducto.</p><ul><li>Los sistemas de protección</li><li>Las alarmas asociadas</li><li>Los sistemas de seguridad</li></ul><p>Cuentan con una ingeniería para asegurarse de que no se excedan los límites y reducen los peligros que estas instalaciones pueden representar para el personal, el medio ambiente y la propiedad.</p>",
+                    "img": {
+                        "src": "16/2a.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "img": {
+                    "src": "16/3.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "<p>Por regulaciones, ningún operador puede permitir que la presión en el oleoducto durante golpes de ariete y otras variaciones de operaciones normales exceda el 110% de la presión máxima de operación (49 CFR 195.406).</p><p>Los registros principales que demuestran las operaciones seguras se registran en un computador y en los libros de registro del Centro de Control o del Cuarto de Control local.</p><p>Todos los registros de presión, temperatura y flujo se registran para inspección.</p>",
+                    "img": {
+                        "src": "16/3a.png",
+                        "alt": ""
+                    }
+                }
+            }
+        ],
+
+        "graphic": {
+            "src": "16/1.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": "M6_p2_36.mp3"
+        }
+    },
+    {
+        "id": "c-12",
+        "_route": 17,
+        "parentId": "m-1",
+        "type": "so-in-shot",
+        "title": "Operación de controladores de presión",
+        "text": "La operación segura del oleoducto requiere <b>que la presión y el flujo permanezcan dentro de los límites especificados.</b> No se debe exceder la máxima presión de operación (Maximum Operating Pressure, MOP).",
+        "instruction": "Haga <b>clic sobre cada tarjeta</b> para ver los aspectos que se deben tener en cuenta en este procedimiento. ",
+        "graphic": {
+            "src": "17/0.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "icon": {
+                    "src": "soinshot/1.png",
+                    "alt": "Numero 1"
+                },
+                "content": {
+                    "src": "17/1.png",
+                    "alt": "Contenido 1"
+                }
+            },
+            {
+                "id": 2,
+                "icon": {
+                    "src": "soinshot/2.png",
+                    "alt": "Numero 2"
+                },
+                "content": {
+                    "src": "17/2.png",
+                    "alt": "Contenido 2"
+                }
+            },
+            {
+                "id": 3,
+                "icon": {
+                    "src": "soinshot/3.png",
+                    "alt": "Numero 3"
+                },
+                "content": {
+                    "src": "17/3.png",
+                    "alt": "Contenido 3"
+                }
+            },
+            {
+                "id": 4,
+                "icon": {
+                    "src": "soinshot/4.png",
+                    "alt": "Numero 4"
+                },
+                "content": {
+                    "src": "17/4.png",
+                    "alt": "Contenido 4"
+                }
+            },
+            {
+                "id": 5,
+                "icon": {
+                    "src": "soinshot/5.png",
+                    "alt": "Numero 5"
+                },
+                "content": {
+                    "src": "17/5.png",
+                    "alt": "Contenido 5"
+                }
+            },
+            {
+                "id": 6,
+                "icon": {
+                    "src": "soinshot/6.png",
+                    "alt": "Numero 6"
+                },
+                "content": {
+                    "src": "17/6.png",
+                    "alt": "Contenido 6"
+                }
+            }
+        ],
+        "audio": {
+            "src": "M6_p2_39.mp3"
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Operación de controladores de flujo",
+        "layout": "right",
+        "text": "Debido a la condición operacional, <b>puede ser necesario aumentar o disminuir las ratas de flujo en el oleoducto.</b> La empresa tiene procedimientos estándar para esta labor. Las ratas de flujo se pueden cambiar y cualquier aceleración debe ser ajustable.<br>El operador es responsable del procedimiento y de calcular las incidencias que puedan ocurrir en puntos críticos de la línea.",
+        "img": {
+            "src": "pg18.png",
+            "alt": ""
+        },
+        "_route": 18,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_45.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 19,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Operación de controladores de temperatura",
+        "text": "La temperatura tiene una influencia básica sobre la gravedad API de los productos dentro del sistema de transporte. Para los cálculos necesarios al efectuar una medición de cantidad, cada bache de producto se debe corregir con la gravedad API estándar a 60º F.",
+        "instruction": "",
+        "links": [{
+                "src": "Slide-46-01_Modulo6_P2.pdf",
+                "img": "19/3.png"
+            },
+            {
+                "src": "Slide-46-01_Modulo6_P2.pdf",
+                "img": "19/4.png"
+            }
+        ],
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "19/1.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "Para recordar",
+                "text": "<p>Algunas empresas tienen límites sobre los productos que aceptan para transportar por el oleoducto.</p><p>Las empresas no deben aceptar productos fuera de los límites predeterminados para su transporte.</p><p>Los productos por fuera de estos límites no se aceptan para despacho a menos que ello sea necesario para facilitar alguna necesidad específica.</p>",
+                "img": {
+                    "src": "19/2.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "19/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-8",
+        "parentId": "m-1",
+        "type": "matching",
+        "title": "Repasemos",
+        "text": "Relacione las frases de la columna izquierda con las de la derecha, haciendo clic en cada una de ellas:",
+        "items": [{
+                "id": 1,
+                "text": "Están ubicados en las instalaciones del sistema y reguladores de contrapresión ubicados en las terminales.",
+                "pair": 7
+            },
+            {
+                "id": 2,
+                "text": "Indican la presión en la línea y las presiones de succión.",
+                "pair": 8
+            },
+            {
+                "id": 3,
+                "text": "Puede ajustar los valores de las presiones para control del proceso.",
+                "pair": 5
+            },
+            {
+                "id": 4,
+                "text": "Tiene una influencia básica sobre la gravedad API de los productos.",
+                "pair": 6
+            },
+            {
+                "id": 5,
+                "text": "La temperatura.",
+                "pair": 3
+            },
+            {
+                "id": 6,
+                "text": "El operador del centro de control.",
+                "pair": 4
+            },
+            {
+                "id": 7,
+                "text": "Los controladores de presión.",
+                "pair": 1
+            },
+            {
+                "id": 8,
+                "text": "Los controladores principales.",
+                "pair": 2
+            }
+
+        ],
+        "_route": 20,
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Continuemos con el tema 3: operación de tanques de almacenamiento en un terminal ",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son: ",
+        "img": {
+            "src": "pg21.png",
+            "alt": ""
+        },
+        "_route": 21,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-28",
+        "_route": 22,
+        "parentId": "m-1",
+        "type": "pines",
+        "title": "Operación de controladores de temperatura",
+        "text": "La operación de tanques de almacenamiento en los terminales, crítica en la operación de oleoductos, es parte del proceso de Transferencia de Custodia.",
+        "instruction": "<b>Haga clic en los círculos </b>para ampliar la información sobre este procedimiento.",
+        "hotgraphic": {
+            "src": "pg22.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "title": "",
+                "text": "<p>El operador es responsable de asegurarse que las mediciones de la cantidad de producto en todo el Terminal se realicen de manera precisa.</p><p>Cuando se carga cualquier medio de transporte alternativo, camiones, botes o buquetanques, debe haber una contabilización cuidadosa de lo que se recibe, lo que se carga y de qué tanque se carga.</p>",
+                "position": {
+                    "x": 80,
+                    "y": 16
+                }
+            },
+            {
+                "id": 2,
+                "title": "",
+                "text": "<p>Un punto clave a tener en cuenta es que el producto transferido en custodia se puede transferir de un despachador a otro con un tercero intermediario que maneje la operación de transacción del producto.</p> <p>Con frecuencia se establece una serie de cuentas diferentes para un despachador específico.</p>",
+                "position": {
+                    "x": 80,
+                    "y": 32.6
+                }
+            },
+            {
+                "id": 3,
+                "title": "",
+                "text": "<p>Es responsabilidad del Terminal garantizar que todas las cifras del despachador se documenten correctamente.</pç><p>Si no se elabora dicha documentación con precisión, pueden surgir dificultades mayores para mantener el seguimiento del movimiento del producto para el manejo de la contabilidad.</p>",
+                "position": {
+                    "x": 80,
+                    "y": 49.3
+                }
+            },
+            {
+                "id": 4,
+                "title": "",
+                "text": "<p>La mayoría de las empresas documentan los recibos y de despachos en un tiquete, que establece la cantidad de producto que se entrega y documenta hacia dónde se fue el producto.</p><p>Siempre que haya una Transferencia de Custodia, es necesario un tiquete. Por lo general, la información se ingresa a reportes de inventarios físicos.</p><p>El número del bache, el código del despachador, el origen o el destino, y el número del tiquete son datos críticos. El origen y destino correctos son esenciales para asegurarse que se apliquen las tarifas correctas.</p>",
+                "position": {
+                    "x": 80,
+                    "y": 66
+                }
+            },
+            {
+                "id": 5,
+                "title": "",
+                "text": "Los brazos de cargue, donde se recibe el producto, un camión por ejemplo, y los tanques de almacenamiento del Terminal son un riesgo de seguridad  para los empleados de la empresa como los clientes involucrados en la operación.",
+                "position": {
+                    "x": 80,
+                    "y": 82.7
+                }
+            }
+
+        ],
+        "fuente": "",
+        "note": " ",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 23,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Precauciones de seguridad",
+        "text": "La seguridad siempre debe ser un factor importante para los operadores de oleoductos. Los sitios de cargue de los medios de transporte alternativo, tales como los camiones, requieren una vigilancia especial debido a <b>algunos peligros inherentes asociados con este proceso.</b>",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-46-01_Modulo6_P2.pdf",
+            "img": "23/2.png"
+        }],
+        "graphic": {
+            "src": "23/1.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": "M6_p2_58.mp3"
+        }
+    },
+    {
+        "id": "c-4",
+        "parentId": "m-1",
+        "type": "slider",
+        "title": "Instalaciones y procedimientos para el cargue de camiones con el múltiple en el fondo del tráiler ",
+        "class": "bg-green",
+        "text": "",
+        "instruction": "Haga clic <b>las flechas</b> de la imagen para obtener más información.<p>Al terminar de leer la información haga clic en la flecha hacia adelante  para obtener más información.</p>",
+        "items": [{
+                "id": 0,
+                "title": "Llegada al sitio de cargue",
+                "_subtype": "",
+                "text": "Primero, el camión se debe conducir hacia el sitio de cargue y se estacionará en una posición en donde quede el múltiple de la cisterna (tráiler) opuesto a los brazos de cargue de la instalación.<br>Se aplican los frenos de estacionamiento del camión, se bloquean las llantas y se conecta el cable de tierra del Terminal al camión.",
+                "graphic": {
+                    "src": "24/1.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 1,
+                "title": "inspección de seguridad",
+                "_subtype": "",
+                "text": "Se debe realizar una inspección de verificación final para asegurarse de que todo el equipo eléctrico se encuentre apagado, que las válvulas de salida de la cisterna (tráiler) se encuentren cerradas y que hayan condiciones de cargue seguras. <br>Algunos terminales no son manejados directamente por personas. Cuentan con una validación automatizada y el conductor únicamente necesita utilizar una tarjeta para realizar el cargue.",
+                "graphic": {
+                    "src": "24/2.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 2,
+                "title": "inspección de seguridad ",
+                "_subtype": "",
+                "text": "Algunas de las terminales tienen la posibilidad de realizar una verificación óptica de la información clave, sin necesidad de inserción de ninguna tarjeta o dispositivo. <br>Si se detecta un problema, e debe resolver de acuerdo con los procedimientos de la empresa.",
+                "graphic": {
+                    "src": "24/3.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+
+            {
+                "id": 3,
+                "title": "Conexión",
+                "_subtype": "",
+                "text": "Después de realizar la conexión a tierra se conecta el dispositivo de sobre-flujo de protección y el sistema de recuperación de vapores. Este paso no es opcional, es obligatorio. <br> Tan pronto como los brazos de cargue están habilitados, se retira el brazo de cargue deseado de su posición de almacenamiento y se coloca en posición en el camión.<br>Después, se retira la tapa guardapolvo y se engancha el brazo de cargue en el acoplador para desconexiones en seco.",
+                "graphic": {
+                    "src": "24/4.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 4,
+                "title": "ajuste electrónico",
+                "_subtype": "",
+                "text": "El valor establecido para un volumen de combustible que se va a cargar se fija en el medidor. <br>Se debe tener cuidado para que el valor alimentado al medidor no sea superior al volumen que puede recibir, por capacidad, el compartimiento de un camión en particular. <br>En este momento se puede iniciar el cargue.",
+                "graphic": {
+                    "src": "24/5.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 5,
+                "title": "terminación del cargue",
+                "_subtype": "",
+                "text": "Después de que se transfiere producto al camión, se deben seguir los siguientes pasos para completar la operación de cargue: <br><b>Paso 1 </b>Desconectar el brazo de cargue y regresarlo a su posición de almacenamiento. <br><b>Paso 2 </b>Desconectar el dispositivo de sobre-flujo de protección y regresarlo a su posición de almacenamiento. <br><b>Paso 3 </b>Desenganchar la manguera de vapor y regresarla a la posición de almacenamiento. <br><b>Paso 4 </b>Desconectar el cable de tierra y regresarlo a su posición de almacenamiento.",
+                "graphic": {
+                    "src": "24/6.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 6,
+                "title": "alarmas",
+                "_subtype": "",
+                "text": "La mayoría de los sistemas tienen alarmas audibles y/o visibles que no se detendrán hasta que se hayan concluido de manera apropiada los procedimientos de eliminación de la fuente que dio origen a la alarma.<p><b>¡advertencia!</b></p> No se debe encender ni mover el camión hasta que se hayan apagado las alarmas.",
+                "graphic": {
+                    "src": "24/7.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 7,
+                "title": "inspección visual",
+                "_subtype": "",
+                "text": "Después de que se hayan apagado todas las alarmas, se debe realizar una inspección visual. Se debe verificar que no haya fugas, derrames o daños al camión o a las instalaciones. Si hay un derrame o una ignición, se debe lavar el área antes de encender el camión. <br> Se retiran los tacos de las llantas.Si se observa un problema, se debe remolcar el camión desde el sitio de cargue hacia una distancia segura antes de cualquier intento de reparación o de alteración. <br> Antes de partir, el conductor del camión debe obtener copia del tiquete del medidor.",
+                "graphic": {
+                    "src": "24/8.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+
+            {
+                "id": 8,
+                "title": "reconciliación",
+                "_subtype": "",
+                "text": "en las instalaciones de cargue del Terminal es la medición del producto y la conciliación de excedentes y faltantes. <br> Al final de cada día, Operaciones debe comparar las lecturas de cargue de los medidores en la instalación con el inventario físico para asegurarse de que no haya problemas de medición.",
+                "graphic": {
+                    "src": "24/9.png",
+                    "alt": "",
+                    "source": ""
+                }
+            },
+            {
+                "id": 9,
+                "title": "reconciliación",
+                "_subtype": "",
+                "text": "Normalmente, cada brazo de cargue con su medidor a camión está asignado a un tanque de producto específico.<br>El personal de Operaciones debe totalizar las lecturas de cargue para todos los medidores asignados a un tanque específico. <br>El volumen total cargado durante el tiempo de entrega del medidor debe ser igual al inventario inicial del tanque menos el inventario final del mismo.",
+                "graphic": {
+                    "src": "24/10.png",
+                    "alt": "",
+                    "source": ""
+                }
+            }
+        ],
+        "_route": 24,
+        "audio": {
+            "src": "M6_p2_69.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 25,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Procedimientos para el cargue de camiones con la entrada de producto por la parte superior de las bodegas ",
+        "text": "Todos los procedimientos y precauciones de seguridad enumerados previamente aplican a los camiones de cargue superior; no obstante, hay varias modificaciones. En la siguiente infografía podrá ver en detalle este procedimiento.",
+        "instruction": "",
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "25/2.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "tenga en cuenta",
+                "text": "Esta sección es un suplemento a los procedimientos generales para cargue de camiones. <br> Los camiones de diseño reciente cuenta con el sistema de cargue en la parte inferior.Algunas unidades aún se deben cargar por encima de las bodegas.Sin embargo todos los aspectos de seguridad son los mismos para ambos sistemas.",
+                "img": {
+                    "src": "25/3.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "25/1.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": "M6_p2_70.mp3"
+        }
+    },
+    {
+        "id": "c-28",
+        "_route": 26,
+        "parentId": "m-3",
+        "type": "mcq",
+        "title": "Actividad de aprendizaje",
+        "text": "Escoge la respuesta que consideras correcta y haz clic en comprobar para validar.",
+        "question": " ¿Cuáles son las fuentes de ignición, incluyendo sin limitación?",
+        "options": [{
+                "id": 1,
+                "text": "Hornos, alarmas de los vehículos, luces y radios.",
+                "shouldBeSelected": true
+            },
+            {
+                "id": 2,
+                "text": "Microondas, alarmas, vehículos, luces y radios.",
+                "shouldBeSelected": false
+            },
+            {
+                "id": 4,
+                "text": "Alarmas, vehículos, luces, radios y motores.",
+                "shouldBeSelected": false
+            }
+
+        ],
+        "txtButton": "Comprobar",
+        "feedbackTrue": "¡Felicitaciones! No olvide que puede regresar a los contenidos y repasar cuantas veces considere necesario.",
+        "graphic": {
+            "src": "mq1.png",
+            "alt": "Actividad de aprendizaje"
+        },
+
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-28",
+        "_route": 27,
+        "parentId": "m-3",
+        "type": "mcq",
+        "title": "Actividad de aprendizaje",
+        "text": "Escoge la respuesta que consideras correcta y haz clic en comprobar para validar.",
+        "question": "¿Cuáles son los aspectos importantes dentro de la instalaciones y procedimientos   para los camiones de carga múltiple en el fondo del tráiler?",
+        "options": [{
+                "id": 1,
+                "text": "Conexión, ajuste electrónico, terminación del cargue, alarma y reconciliación.",
+                "shouldBeSelected": true
+            },
+            {
+                "id": 2,
+                "text": "Conexión, alarmas, reconciliación.",
+                "shouldBeSelected": false
+            },
+            {
+                "id": 4,
+                "text": "Ajuste electrónico, alarma y reconciliación.",
+                "shouldBeSelected": false
+            },
+            {
+                "id": 5,
+                "text": "Conexión, ajustes, terminación del cargue, alarma y reconciliación.",
+                "shouldBeSelected": false
+            }
+
+        ],
+        "txtButton": "Comprobar",
+        "feedbackTrue": "¡Felicitaciones! No olvide que puede regresar a los contenidos y repasar cuantas veces considere necesario.",
+        "graphic": {
+            "src": "mq1.png",
+            "alt": "Actividad de aprendizaje"
+        },
+
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Otras transferencias de custodia",
+        "layout": "right",
+        "text": "Además del cargue de camiones, también <b>se presentan Transferencias de Custodia entre las instalaciones y vagones cisterna, embarcaciones fluviales o marítimas u otros tanques de almacenamiento. </b> <br>A continuación veremos cómo se realiza cada procedimiento. ",
+        "img": {
+            "src": "pg28.png",
+            "alt": ""
+        },
+        "_route": 28,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_75.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 29,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Despacho hacia vagones cisterna",
+        "text": "<p>En la siguiente infografía se presenta el procedimiento general de despacho y cargue hacia un vagón cisterna. Cada paso es vital.</p><p>Aún cuando se envía un vagón cisterna vacío, el despachador tiene la misma responsabilidad que con un vagón cisterna lleno.</p>",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-76_Modulo6_P2.pdf",
+            "img": "29/1.png"
+        }],
+
+        "graphic": {
+            "src": "29/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+
+    {
+        "id": "c-15",
+        "_route": 30,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Despacho embarcaciones marinas y fluviales",
+        "text": "<p>El control y contabilización del movimiento marítimo de productos se basa en parte <b>en los acuerdos específicos entre el proveedor del producto, el receptor y el transportador.</b></p> <p>Algunas de las autoridades legales pueden variar entre un puerto marítimo y algunos puertos fluviales del interior.</p>",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-46-01_Modulo6_P2.pdf",
+            "img": "30/1.png"
+        }],
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "30/2.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "Tenga en cuenta",
+                "text": "<p>El volumen recibido o despachado desde las embarcaciones siempre se basa en las mediciones de los tanques de tierra que entregaron o recibieron el producto. </p><p>El personal debe asegurarse que haya permanecido en reposo el tanque por el tiempo establecido, antes de tomar las mediciones.</p>",
+                "img": {
+                    "src": "30/3.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "30/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Despacho hacia tanques de almacenamiento",
+        "layout": "full",
+        "text": "",
+        "img": {
+            "src": "pg31.png",
+            "alt": ""
+        },
+        "_route": 31,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_79.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 32,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Despacho hacia tanques de almacenamiento",
+        "text": "En el siguiente cuadro podrá ver en detalle cómo se realiza el despacho hacia tanques de almacenamiento.",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-80_Modulo6_P2.pdf",
+            "img": "32/1.png"
+        }],
+        "items": [{
+                "id": 0,
+                "img": {
+                    "src": "32/3.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "Tenga en cuenta",
+                    "text": "<p>Los tanques de almacenamiento por lo general tienen medidores remotos, que indican el volumen y sirven para ayudar al monitoreo del flujo hacia el tanque de almacenamiento.</p><p>Si el medidor remoto de un tanque detiene su movimiento, estando el nivel del producto por encima de la posición inferior normal y aún hay flujo, es improbable que el tanque se encuentre vacío.</p><p>Operaciones debe revisar el medidor para detectar si hay problemas eléctricos o mecánicos con el medidor del tanque o si hay algún problema con las patas del techo flotante.</p>",
+                    "img": {
+                        "src": "30/3.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "img": {
+                    "src": "32/2.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "",
+                    "img": {
+                        "src": "",
+                        "alt": ""
+                    }
+                }
+            }
+
+        ],
+
+        "graphic": {
+            "src": "32/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-16",
+        "_route": 33,
+        "parentId": "m-1",
+        "type": "canasta",
+        "title": "Actividad de aprendizaje",
+        "text": "",
+        "instruction": "Arrastre el <b>enunciado</b> que usted crea correcta a la canasta",
+        "listOptions": [{
+                "id": 1,
+                "label": "Es responsabilidad del Terminal garantizar que todas las cifras del despachador se documenten correctamente.",
+                "_isCorrect": true
+            },
+
+            {
+                "id": 2,
+                "label": "Siempre que haya una Transferencia de Custodia, es necesario un tiquete. ",
+                "_isCorrect": false
+            },
+
+            {
+                "id": 3,
+                "label": "Una pauta sugerida cuando se carga un vagón cisterna es cargar rápidamente todos los productos hasta que se cubra el final del tubo de carga.",
+                "_isCorrect": true
+            },
+            {
+                "id": 4,
+                "label": "Se pueden conectar baterías booster a los camiones siempre y cuando se encuentren cerca de los brazos de cargue de producto.",
+                "_isCorrect": false
+            }
+
+        ],
+        "listAnswers": [],
+        "listLabel": "",
+        "listImgToDrag": "canasta.png",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Continuemos con el tema 5: ajuste de los parámetros de alarma ",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son:",
+        "img": {
+            "src": "pg34.png",
+            "alt": ""
+        },
+        "_route": 34,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_87.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 35,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Ajuste de los parámetros de alarma",
+        "text": "El personal de Operaciones puede recibir notificaciones acerca de que <b>se están llegando a los límites específicos, máximos o mínimos, </b>en cualquiera de las señales transmitidas al computador del Centro de Control. Estas lecturas pueden incluir ratas de flujo, presiones, densidades, niveles de tanques o casi cualquier lectura de una propiedad variable.",
+        "instruction": "Haga clic en los números para ampliar la información sobre este tema.",
+        "links": [{
+            "src": "Slide-86_Modulo6_P2.pdf",
+            "img": "32/1.png"
+        }],
+        "items": [{
+                "id": 0,
+                "img": {
+                    "src": "35/1.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "El computador del Centro del Control proporciona una serie de herramientas de software – incluyendo SCADA - para ayudar al personal de Operaciones a revisar y verificar la integridad del oleoducto y las instalaciones de almacenamiento asociadas.",
+                    "img": {
+                        "src": "35/1.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "img": {
+                    "src": "35/2.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "<p>El sistema de información tiene características que permiten notificar de cambios en la situación operativa alertando al personal:</p><ul><li>Cuando se exceden los límites de la rata de flujo o de la presión</li><li>Para proporcionar una lógica que permite analizar un grupo preestablecido de valores en los dispositivos para determinar las interrupciones de flujo que se hayan detectado en el sistema del oleoducto.</li></ul>",
+                    "img": {
+                        "src": "35/2.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "img": {
+                    "src": "35/3.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "Se deben establecer los valores de los parámetros de operación en el sistema SCADA antes de que las unidades se encuentren operando.",
+                    "img": {
+                        "src": "35/3.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "img": {
+                    "src": "35/4.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "<p>Una de las funciones básicas del computador del Centro de Control es notificar al de operaciones acerca de los dispositivos específicos que han cambiado de estado o que hayan excedido los límites en que se ha establecido su operación.</p><p>La notificación se mostrará al controlador como una alarma de prioridad uno o como una alerta de prioridad dos.</p>",
+                    "img": {
+                        "src": "35/4.png",
+                        "alt": ""
+                    }
+                }
+            }
+
+        ],
+
+        "graphic": {
+            "src": "32/0.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-28",
+        "_route": 36,
+        "parentId": "m-1",
+        "type": "pines",
+        "title": "Tipos de alarmas",
+        "text": "Las alarmas o alertas se presentan al personal de Operaciones de diferentes maneras, incluyendo:",
+        "instruction": "<b>Haga clic en cada número</b> para ampliar la información sobre este tema.",
+        "hotgraphic": {
+            "src": "pg36.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "title": "",
+                "text": "<p>El personal de Operaciones puede recibir notificaciones de cualquier cambio de estado de un punto determinado que se escanee en el sistema del Centro de Control.</p><p>A la notificación se le asignará un estatus de prioridad: prioridad uno, o prioridad dos.Dichas alarmas pueden ser el resultado de un aumento de temperatura o de un cambio en la viscosidad.</p>",
+                "position": {
+                    "x": 48,
+                    "y": 18
+                }
+            },
+            {
+                "id": 2,
+                "title": "",
+                "text": "<p>El sistema notifica cuando una situación supera los valores especificados como límites de control, dentro de cuatro valores: alto-alto, alto, bajo y bajo-bajo. </p><p>Dos de estos límites, alto - alto y bajo – bajo, se designan como alarmas de prioridad uno y la documentación de la acción tomada es obligatoria. El valor de ajuste de estas alarmas únicamente lo puede hacer personal autorizado.</p><p>Los otros dos límites son alertas de prioridad dos. Estos dos límites, alto y bajo, los puede fijar el personal de Operaciones sin que sobre la respectiva documentación.</p>",
+                "position": {
+                    "x": 48,
+                    "y": 33
+                }
+            },
+            {
+                "id": 3,
+                "title": "",
+                "text": "<p>El controlador del Oleoducto puede recibir una notificación de que se esté excediendo una rata de cambio en una lista específica de señales análogas emitidas por el sistema del Centro de Control. Estas señales pueden incluir ratas de flujo, presiones y densidades. </p><p>Las alarmas de cambio en la rata de cambio son cálculos de aumento o caída en unidades por segundo con base en un número preestablecido o información tomada durante un período de tiempo específico, para lograr una velocidad de cambio en la propiedad real durante dicho período. Se emitirán alarmas individuales.</p>",
+                "position": {
+                    "x": 48,
+                    "y": 48
+                }
+            },
+            {
+                "id": 4,
+                "title": "",
+                "text": "Las alarmas de alteraciones en el cambio en propiedades combinadas se logran combinando, de manera lógica, varios cálculos de cambio de propiedades buscando un indicativo de alteración para una condición hidráulica dada. Por lo general utilizan ratas de flujo. En un proceso de bombeo, las bombas producen un flujo constante en las estaciones aguas arriba. El sistema de computación del oleoducto utiliza un programa lógico que compara la presión de descarga, la rata de flujo y la presión de succión tanto en las estaciones aguas arriba como en las estaciones aguas abajo para concluir que al existir una alteración en la condición hidráulica establecida en el oleoducto, podría existir una fuga de producto. Al menos dos de esos parámetros deben fluctuar dentro de cierto límite de tiempo para apagar una alarma.",
+                "position": {
+                    "x": 48,
+                    "y": 65
+                }
+            },
+            {
+                "id": 5,
+                "title": "",
+                "text": "<p>Comparan los recibos y los despachos totales horarios, permitiendo correcciones por el llenado de la línea y su empacamiento. El sistema del Centro de Control se puede ajustar para calcular este valor con una base predeterminada. </p><p>La comparación entre lo bombeado y lo recibido se conoce como exceso o faltante. Los cálculos del balance de línea se realizan con diferentes lapsos de tiempo de acuerdo con los lineamientos de la Empresa. </p><p>Cuando se activan estas alarmas, se debe investigar el evento, encontrar los motivos y el problema en la línea en donde se haya encontrado el desbalance. Cualquiera que sea la causa, el personal de Operaciones debe resolver el problema y realizar los ajustes necesarios.</p>",
+                "position": {
+                    "x": 48,
+                    "y": 80
+                }
+            }
+
+        ],
+        "fuente": "",
+        "note": " ",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Continuemos con el tema 6: procedimientos de arranque y de parada ",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son: ",
+        "img": {
+            "src": "pg37.png",
+            "alt": ""
+        },
+        "_route": 37,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Procedimientos de arranque y de parada",
+        "layout": "left",
+        "text": "<p>El arranque y parada de cualquier segmento de un oleoducto se debe realizar según 49 CFR 195.402. </p><p>La normatividad requiere que se le dé especial consideración a los líquidos peligrosos que se están transportando, mediante análisis de las variaciones en altitud, monitoreo de la presión y otros dispositivos. </p><p>El Operador es responsable de los procesos de arranques y paradas necesarios.</p>",
+        "img": {
+            "src": "pg38.png",
+            "alt": ""
+        },
+        "_route": 38,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_98.mp3"
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Arranque normal",
+        "layout": "left",
+        "text": "Operaciones cuenta con una serie de lineamientos para seguir con el fin de arrancar la operación de un segmento en particular o de todo el oleoducto, Se describen en el manual operativo de la empresa. Éstas se pueden ajustar cuando cambian las condiciones.",
+        "img": {
+            "src": "pg39.png",
+            "alt": ""
+        },
+        "_route": 39,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_99.mp3"
+        }
+    },
+    {
+        "id": "c-12",
+        "_route": 40,
+        "parentId": "m-1",
+        "type": "so-in-shot",
+        "title": "Arranque normal",
+        "text": "Las responsabilidades básicas antes y durante el arranque incluyen:",
+        "instruction": "Haga <b>clic sobre cada tarjeta</b> para ver los aspectos que se deben tener en cuenta en este procedimiento. ",
+        "graphic": {
+            "src": "40/0.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "icon": {
+                    "src": "soinshot/1.png",
+                    "alt": "Numero 1"
+                },
+                "content": {
+                    "src": "40/1.png",
+                    "alt": "Contenido 1"
+                }
+            },
+            {
+                "id": 2,
+                "icon": {
+                    "src": "soinshot/2.png",
+                    "alt": "Numero 2"
+                },
+                "content": {
+                    "src": "40/2.png",
+                    "alt": "Contenido 2"
+                }
+            },
+            {
+                "id": 3,
+                "icon": {
+                    "src": "soinshot/3.png",
+                    "alt": "Numero 3"
+                },
+                "content": {
+                    "src": "40/3.png",
+                    "alt": "Contenido 3"
+                }
+            },
+            {
+                "id": 4,
+                "icon": {
+                    "src": "soinshot/4.png",
+                    "alt": "Numero 4"
+                },
+                "content": {
+                    "src": "40/4.png",
+                    "alt": "Contenido 4"
+                }
+            },
+            {
+                "id": 5,
+                "icon": {
+                    "src": "soinshot/5.png",
+                    "alt": "Numero 5"
+                },
+                "content": {
+                    "src": "40/5.png",
+                    "alt": "Contenido 5"
+                }
+            }
+
+        ],
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 41,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Ajuste de los parámetros de alarma",
+        "text": "<p>Se debe arrancar el oleoducto en una secuencia apropiada para asegurar que se logre una operación satisfactoria y se mantengan los límites a lo largo de todo el oleoducto.</p><p>El controlador de Operaciones debe mantener comunicaciones permanentes con todas las estaciones monitoreándolas hasta que la línea se encuentre en operación normal y con una presión y una rata de flujo en estado estable.</p> <p>En la siguiente infografía puede ver un procedimiento de arranque típico:</p>",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-104_Modulo6_P2.pdf",
+            "img": "pg41.png"
+        }],
+
+        "graphic": {
+            "src": "32/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Arranque del oleoducto después de un mantenimiento",
+        "layout": "left",
+        "text": "<p>Hay ocasiones en las que el oleoducto se debe parar por períodos extensos de tiempo mientras se realizan trabajos de mantenimiento. </p><p>Bien sea por un cierre de válvula inesperado o un derrame de producto, <b> tan pronto como se repare y se haya probado su integridad,        se debe arrancar el oleoducto.</b></p> <p>El arranque después de un mantenimiento es el mismo proceso que el de un arranque normal </p>",
+        "img": {
+            "src": "pg42.png",
+            "alt": ""
+        },
+        "_route": 42,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 43,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Arranque del oleoducto después de una condición anormal ",
+        "text": "<p>Si el oleoducto se ha parado por condiciones operacionales anormales (AOC), el operador del Cuarto de Control debe <b>iniciar una investigación del problema y tratar de determinar exactamente cuál fue el problema.</b></p><p>Puede ser necesario llamar a un equipo técnico para investigar físicamente el área en donde se suspendió la operación. </p>",
+        "instruction": "",
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "43/1.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "¿Qué sucede después de aclarar el problema ? ",
+                "text": " <p>Después de aclarar todo el problema y que las pruebas de funcionamiento hayan terminado, se ajustan nuevamente las condiciones de operación para todo el sistema.</p> <p>El personal de Operaciones debe seguir los mismos procedimientos de un arranque normal.</p><p>Únicamente difiere la documentación. Los reportes de eventos deben ser diligenciados teniendo en cuenta que la causa de la suspensión no fue una situación normal.</p>",
+                "img": {
+                    "src": "43/2.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "43/0.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": "M6_p2_106.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 44,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Realización de una parada programada",
+        "text": "<p>Todas las secuencias de parada son específicas para una empresa, un oleoducto y un producto y los procedimientos exactos están cubiertos en los manuales de cada empresa. </p><p>Aunque todos los sistemas de oleoducto son diferentes, una parada planeada incluye unas acciones básicas y unos procedimientos generales, iguales para todos. </p><p>Descúbralos en las siguientes infografías.</p>",
+        "instruction": "",
+        "links": [{
+                "src": "Slide-108-01_Modulo6_P2.pdf",
+                "img": "44/1.png"
+            },
+            {
+                "src": "Slide-108-02_Modulo6_P2.pdf",
+                "img": "44/2.png"
+            }
+        ],
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "44/3.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "Para recordar",
+                "text": "<p>En condiciones de emergencia, tales como una posible fuga de producto, el operador del oleoducto tiene toda la responsabilidad y autoridad para tomar las decisiones de parar un oleoducto y tomar las demás acciones apropiadas.</p><p>Estas acciones son gobernadas por las políticas de la empresa para los eventos ocurridos sobre todas las demás consideraciones.</p>",
+                "img": {
+                    "src": "44/3.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "44/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-15",
+        "_route": 45,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "left",
+        "title": "Monitoreo de la parada programada",
+        "text": "<p>El monitoreo después de una parada planeada es importante. debido a que las condiciones del oleoducto pueden cambiar sin ninguna advertencia.</p><p>Es posible que las alarmas de cambio de rata no operen de manera precisa durante la parada del oleoducto. Se debe monitorear constantemente la presión del oleoducto para verificar que permanezca dentro de los límites establecidos.</p></p>La presión puede aumentar debido a la expansión por el calor. Si la línea se para estando empacada, se puede exceder la MOP.</p>",
+        "instruction": "",
+        "items": [{
+            "id": 0,
+            "img": {
+                "src": "45/2.png",
+                "alt": ""
+            },
+            "modal": {
+                "title": "Importante",
+                "text": "<p>Se debe monitorear la línea para verificar que permanezca empacada, de manera que el sistema de detección de fugas opere de forma precisa.</p><p>Si se permite que la presión descienda, una fuga de producto no sería tan evidente y puede que no se detecte durante un tiempo. Finalmente, si la línea se llena con un gas natural líquido (GNL) o un líquido altamente volátil (HVL), se debe mantener empacada para mantener el producto en fase líquida. Esto es importante con muchos productos refinados tanto como con petróleo crudo a una altura de terreno alta.</p><p>Si la presión está gradualmente cambiando y este cambio no se detecta rápidamente, se pueden presentar problemas graves. Si no se advierte, no se descubrirá hasta el arranque cuando la situación pueda causar problemas delicados.</p>",
+                "img": {
+                    "src": "45/3.png",
+                    "alt": ""
+                }
+            }
+        }],
+
+        "graphic": {
+            "src": "45/0.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": "M6_p2_110.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 46,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "left",
+        "title": "Realización de paradas para mantenimiento ",
+        "text": "<p>Los oleoductos se deben parar en algunas ocasiones para mantenimiento debido a fallas del equipo principal.</p>",
+        "instruction": "",
+        "items": [{
+                "id": 0,
+                "img": {
+                    "src": "46/1.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "",
+                    "img": {
+                        "src": "",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "img": {
+                    "src": "46/2.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "¿Por qué se debe programar un mantenimiento?",
+                    "text": "<p>Puede ser posible mantener el flujo del oleoducto en una condición anormal, o cerca de ésta, por un período corto,<p><ul><li><b>Se debe programar el mantenimiento tan pronto como haya una cuadrilla de mantenimiento disponible. </b></li> <li>Cuando estén diligenciados todos los permisos de trabajo y la cuadrilla se encuentre en el sitio del problema, operaciones parará la línea de una manera normal y programada.</li><li><b>Se debe mantener contacto permanente con la cuadrilla de mantenimiento hasta que el trabajo haya concluido satisfactoriamente.</b></ul > ",
+                    "img": {
+                        "src": "46/3.png",
+                        "alt": ""
+                    }
+                }
+            }
+
+        ],
+
+        "graphic": {
+            "src": "46/0.png",
+            "alt": ""
+        },
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 47,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Parada de emergencia",
+        "text": "<p>Pueden ocurrir eventos en la operación del oleoducto que representen un peligro inmediato para las personas o la propiedad y que requieren una parada de emergencia.</p>",
+        "instruction": "<b>Haga clic en las preguntas</b> para ampliar la información sobre este tema.",
+        "items": [{
+                "id": 0,
+                "img": {
+                    "src": "47/1.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "<ul><li> Una acción equivocada por un error humano.</li><li> Una falla mecánica o eléctrica.</li><li> Un accidente en el oleoducto. </li><li>Amenazas basadas en una condición atmosférica o una desobediencia civil. </li></ul><p>Sin importar el motivo, se debe parar la línea rápidamente y de manera segura.</p><p>Cada empresa tiene un procedimiento de operación estándar para dicha acción con el cual debe estar familiarizado cada operador.</p><p><b>Una vez se confirme la necesidad, se debe tomar de inmediato una acción decisiva.</b><p>",
+                    "img": {
+                        "src": "35/1.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "img": {
+                    "src": "47/2.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "<ul><li>Aislar el oleoducto apagando de manera segura la estación de origen y continuando aguas abajo con las demás estaciones. </li><li>Minimizar la posible contaminación de los productos dentro del ducto, hasta que todas las bombas queden fuera de línea.</li><li>Cerrar <b> todas las válvulas de bloqueo para completar la parada, </b> una vez se haya reducido la presión.</li><li>Notificar al Centro de Control responsable y al personal de campo, además de informar a todas las partes afectadas.</li><li>Las amenazas por desastres naturales o desórdenes civiles aparecen sin advertencia previa.Se deben aislar las instalaciones afectadas por estos eventos.Luego se puede ",
+                    "img": {
+                        "src": "35/2.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "img": {
+                    "src": "47/3.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "importante",
+                    "text": "<p>En condiciones de emergencia tales como una posible fuga de producto, el operador del oleoducto tiene toda la responsabilidad y autoridad para tomar las decisiones de parar el oleoducto y tomar las acciones apropiadas. Estas acciones deben estar gobernadas por las políticas de la Empresa sobre todas las demás consideraciones. </p>Si se para el oleoducto debido a una posible fuga de producto, no se debe reiniciar la operación hasta que se hayan verificado, corregido y resuelto todos los detalles relacionados con la causa del derrame.</p>",
+                    "img": {
+                        "src": "47/4.png",
+                        "alt": ""
+                    }
+                }
+            }
+
+        ],
+
+        "graphic": {
+            "src": "47/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-8",
+        "parentId": "m-1",
+        "type": "matching",
+        "title": "Repasemos",
+        "text": "Relacione las frases de la columna izquierda con las de la derecha, haciendo clic en cada una de ellas:",
+        "items": [{
+                "id": 1,
+                "text": "Arranque en una secuencia apropiada para asegurar que se logre una operación satisfactoria y se mantengan los límites a lo largo de todo el oleoducto.",
+                "pair": 5
+            },
+            {
+                "id": 2,
+                "text": "Son el resultado de un aumento de temperatura o de un cambio en la viscosidad.",
+                "pair": 6
+            },
+            {
+                "id": 3,
+                "text": "Notifican cuando una situación supera los valores especificados como límites de control, dentro de cuatro valores: alto-alto, alto, bajo y bajo-bajo.",
+                "pair": 4
+            },
+            {
+                "id": 4,
+                "text": "Alarmas de valores altos o bajos.",
+                "pair": 3
+            },
+            {
+                "id": 5,
+                "text": "Procedimiento de arranque normal.",
+                "pair": 1
+            },
+            {
+                "id": 6,
+                "text": "Alarmas de un cambio de estado en un punto determinado.",
+                "pair": 2
+            }
+        ],
+        "_route": 48,
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Continuemos con el tema 7: realización de intercambios de baches. ",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son:",
+        "img": {
+            "src": "pg49.png",
+            "alt": ""
+        },
+        "_route": 49,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Realización de intercambios de baches",
+        "layout": "right",
+        "text": "<p>Muchos oleoductos mueven productos por baches.</p><p>Aunque baches consecutivos pueden ser de un producto similar, <b>las características o aditivos de un bache pueden diferir del bache a continuación de éste.</b>Los puntos de despacho también pueden ser diferentes para cada bache.</p><p>Es responsabilidad del operador determinar cuándo y cómo se debe realizar un cambio entre baches.</p>",
+        "img": {
+            "src": "pg50.png",
+            "alt": ""
+        },
+        "_route": 50,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_122.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 51,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "left",
+        "title": "Secuencias de los baches",
+        "text": "<p>Los oleoductos que operan con un sistema de transporte basado en productos por baches han determinado secuencias de movimientos de productos.</p><p>Estos movimientos de especificaciones diferentes se envían por secuencias para minimizar la influencia de la calidad entre los baches adyacentes, debido a la eventual mezcla de los productos en el oleoducto. </p><p>Se identifica cada producto con una especificación única y se le asigna un código de números y / o letras. </p><p>Se establecen tablas para definir el orden en que los productos deben ser bombeados por el oleoducto, especificando claramente qué producto va a continuación de otro. </p>",
+        "instruction": "",
+        "links": [{
+            "src": "Slide-123_Modulo6_P2.pdf",
+            "img": "51/1.png"
+        }],
+
+        "graphic": {
+            "src": "51/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Interfase",
+        "layout": "full",
+        "text": "Es el área de producto en donde se cambia de un bache a otro. La interfase en los despachos es el punto de división de los baches.",
+        "img": {
+            "src": "pg52.png",
+            "alt": ""
+        },
+        "_route": 52,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "¿Por qué y cómo se deben monitorear las interfases?",
+        "layout": "full",
+        "text": "Monitorear las interfases y realizar los intercambios correctos durante el transporte y a la llegada al sitio de destino es la manera de <b>roteger la integridad del producto</b>, tanto dentro del oleoducto como a su entrega.",
+        "img": {
+            "src": "pg53.png",
+            "alt": ""
+        },
+        "_route": 53,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_125.mp3"
+        }
+    },
+    {
+        "id": "c-15",
+        "_route": 54,
+        "parentId": "m-1",
+        "type": "modals-with-graphic",
+        "layout": "right",
+        "title": "Interfase",
+        "text": "Averigüe qué información se debe proporcionar a la estación de recibo de los productos haciendo clic en los números.",
+        "instruction": "Haga clic en los números para ampliar la información sobre este tema.",
+        "links": [{
+            "src": "Slide-126_Modulo6_P2.pdf",
+            "img": "54/1.png"
+        }],
+        "items": [{
+                "id": 0,
+                "img": {
+                    "src": "35/1.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "Gravedades API de los productos de cola y cabeza. Son los dos productos que viajan uno a continuación del otro.",
+                    "img": {
+                        "src": "35/1.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "img": {
+                    "src": "35/2.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "Si se marcó, o no, el cambio entre baches con un producto marcador.",
+                    "img": {
+                        "src": "35/2.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "img": {
+                    "src": "35/3.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "Si hay un producto separador entre los dos baches de productos.",
+                    "img": {
+                        "src": "35/3.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "img": {
+                    "src": "35/4.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "Hora estimada de llegada de la interfase.",
+                    "img": {
+                        "src": "35/4.png",
+                        "alt": ""
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "img": {
+                    "src": "35/7.png",
+                    "alt": ""
+                },
+                "modal": {
+                    "title": "",
+                    "text": "Gravedades API de cualquier producto dentro de una línea que pueda confundir una estación de recibo.",
+                    "img": {
+                        "src": "35/7.png",
+                        "alt": ""
+                    }
+                }
+            }
+
+        ],
+
+        "graphic": {
+            "src": "54/0.png",
+            "alt": ""
+        },
+        "audio": ""
+    },
+    {
+        "id": "c-6",
+        "parentId": "m-1",
+        "type": "media",
+        "title": "Impresión de tiquetes",
+        "text": "En la siguiente animación verá cómo es el procedimiento de impresión de tiquetes ¡Adelante!",
+        "video": {
+            "sources": [{
+                "src": "video_131_M6.mp4",
+                "type": "video/mp4"
+            }],
+            "options": {
+                "poster": "video1.jpg",
+                "autoplay": false,
+                "volume": 0.8
+            }
+        },
+        "_route": 55,
+        "fuente": "",
+        "audio": ""
+    },
+
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Reporte de información de baches al centro de control",
+        "layout": "full",
+        "text": "El personal del Centro de Operaciones debe entregar permanentemente información del estado de los baches. Entre las cosas que se deben reportar, se incluyen: ",
+        "img": {
+            "src": "pg56.png",
+            "alt": ""
+        },
+        "_route": 56,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Revisión de la programación de transporte ",
+        "layout": "full",
+        "text": "<p>Los recibos de las Transferencias de Custodia en la línea principal generalmente se reciben de productores o de otros transportadores. Normalmente se realizan en términos de tiempo y volumen específico.</p><p>Antes del recibo, el personal de Operaciones recibirá un programa de bombeo.Se debe revisar cuidadosamente el programa.Parte de la información que se debe requerida en la programación incluye:</p> ",
+        "img": {
+            "src": "pg57.png",
+            "alt": ""
+        },
+        "_route": 57,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_133.mp3"
+        }
+    },
+    {
+        "id": "c-8",
+        "parentId": "m-1",
+        "type": "matching",
+        "title": "Repasemos",
+        "text": "Relacione las frases de la columna izquierda con las de la derecha, haciendo clic en cada una de ellas:",
+        "items": [{
+                "id": 1,
+                "text": "______________ es el área de producto en donde se cambia de un bache a otro. ",
+                "pair": 4
+            },
+            {
+                "id": 2,
+                "text": "____________ señala la llegada de la cabeza del segundo bache. Cuando llega, las gravedades API y el color del bache cambian según lo establecido.",
+                "pair": 5
+            },
+            {
+                "id": 3,
+                "text": "En la mayoría de los lugares se deben instalar ______________de interfase a una distancia aguas arriba, aproximadamente igual a una hora del flujo normal desde el lugar hasta la estación de recibo.",
+                "pair": 6
+            },
+
+            {
+                "id": 4,
+                "text": "EL marcador",
+                "pair": 1
+            },
+            {
+                "id": 5,
+                "text": "El flujo de rata ",
+                "pair": 2
+            },
+            {
+                "id": 6,
+                "text": " Un detector ",
+                "pair": 3
+            }
+        ],
+        "_route": 58,
+        "audio": {
+            "src": "M6_89.mp3"
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Continuemos con el tema 8: cálculo de faltantes y excedentes en las instalaciones.",
+        "layout": "full",
+        "text": "Los subtemas que se abordarán a continuación son: ",
+        "img": {
+            "src": "pg59.png",
+            "alt": ""
+        },
+        "_route": 59,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Revisión de la programación de transporte ",
+        "layout": "left",
+        "text": "Determinar el inventario físico es el proceso de establecer el inventario de producto real, es decir, el producto que realmente se encuentra en todos los tanques. Es otra manera de verificar la precisión de los cálculos efectuados por lectura de los medidores.",
+        "img": {
+            "src": "pg60.png",
+            "alt": ""
+        },
+        "_route": 60,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "¿Cómo se determinan los faltantes y excedentes?",
+        "layout": "left",
+        "text": "<ul><li>Se debe comparar el inventario teórico con el inventario físico real medido. El resultado de esta comparación determina los faltantes y los excedentes.</li><li>Mediante la medición automática y la calibración de los medidores, se determina con precisión el inventario teórico. </li><li>Al determinar por medición manual el inventario físico y comparar con el valor anterior se puede calcular la diferencia que existe y se determinan los faltantes y los excedentes. </li><li>Con estas cifras precisas a la mano, es posible identificar las discrepancias y corregir varias de éstas.</li></ul>",
+        "img": {
+            "src": "pg50.png",
+            "alt": ""
+        },
+        "_route": 61,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_139.mp3"
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "¿Qué pasa si se presenta una pérdida del producto?",
+        "layout": "full",
+        "text": "Con frecuencia se demuestra que los volúmenes de producto perdido no representan una realidad física. <b>Pueden ser una pérdida ficticia causada por discrepancias en cálculos o mediciones.</b>",
+        "img": {
+            "src": "pg62.png",
+            "alt": ""
+        },
+        "_route": 62,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "¿Qué pasa si se presenta una pérdida del producto?",
+        "layout": "full",
+        "text": "Con frecuencia se demuestra que los volúmenes de producto perdido no representan una realidad física. <b>Pueden ser una pérdida ficticia causada por discrepancias en cálculos o mediciones.</b>",
+        "img": {
+            "src": "pg62.png",
+            "alt": ""
+        },
+        "_route": 62,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    }, {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Finalicemos con el tema 9: diligenciar la documentación de operaciones requerida.",
+        "layout": "full",
+        "text": "Con frecuencia se demuestra que los volúmenes de producto perdido no representan una realidad física. <b>Pueden ser una pérdida ficticia causada por discrepancias en cálculos o mediciones.</b>",
+        "img": {
+            "src": "pg63.png",
+            "alt": ""
+        },
+        "_route": 63,
+        "fuente": "",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-12",
+        "_route": 64,
+        "parentId": "m-1",
+        "type": "so-in-shot",
+        "title": "Operación de controladores de presión",
+        "text": "La operación segura del oleoducto requiere <b>que la presión y el flujo permanezcan dentro de los límites especificados.</b> No se debe exceder la máxima presión de operación (Maximum Operating Pressure, MOP).",
+        "instruction": "Haga <b>clic sobre cada tarjeta</b> para ver los aspectos que se deben tener en cuenta en este procedimiento. ",
+        "graphic": {
+            "src": "17/0.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "icon": {
+                    "src": "soinshot/1.png",
+                    "alt": "Numero 1"
+                },
+                "content": {
+                    "src": "64/1a.png",
+                    "alt": "Contenido 1"
+                }
+            },
+            {
+                "id": 2,
+                "icon": {
+                    "src": "soinshot/2.png",
+                    "alt": "Numero 2"
+                },
+                "content": {
+                    "src": "64/2a.png",
+                    "alt": "Contenido 2"
+                }
+            },
+            {
+                "id": 3,
+                "icon": {
+                    "src": "soinshot/3.png",
+                    "alt": "Numero 3"
+                },
+                "content": {
+                    "src": "64/3a.png",
+                    "alt": "Contenido 3"
+                }
+            },
+            {
+                "id": 4,
+                "icon": {
+                    "src": "soinshot/4.png",
+                    "alt": "Numero 4"
+                },
+                "content": {
+                    "src": "64/4a.png",
+                    "alt": "Contenido 4"
+                }
+            },
+            {
+                "id": 5,
+                "icon": {
+                    "src": "soinshot/5.png",
+                    "alt": "Numero 5"
+                },
+                "content": {
+                    "src": "64/5a.png",
+                    "alt": "Contenido 5"
+                }
+            }
+
+        ],
+        "audio": {
+            "src": "M6_p2_142.mp3"
+        }
+    },
+    {
+        "id": "c-28",
+        "_route": 65,
+        "parentId": "m-1",
+        "type": "pines",
+        "title": "Para finalizars",
+        "text": "Para finalizar, vamos a entregarle algunas ideas que resumen lo trabajado:",
+        "instruction": "<b>Haga clic en cada número</b> para ampliar la información sobre este tema.",
+        "hotgraphic": {
+            "src": "pg65.png",
+            "alt": ""
+        },
+        "items": [{
+                "id": 1,
+                "title": "",
+                "text": "En esta visión general de las operaciones, se puede observar con facilidad que <b>el alcance de las tareas del oleoducto, los problemas y los peligros van más allá de lo que puede imaginar cualquier persona promedio.</b>",
+                "position": {
+                    "x": 33,
+                    "y": 32
+                }
+            },
+            {
+                "id": 2,
+                "title": "",
+                "text": "El riesgo potencial para el personal, el público y el medio ambiente es mayor, pero los operadores de oleoducto <b>superan todos estos asuntos para satisfacer las necesidades de nuestro estilo de vida moderno.</b> ",
+                "position": {
+                    "x": 33,
+                    "y": 43
+                }
+            },
+            {
+                "id": 3,
+                "title": "",
+                "text": "La seguridad, la calidad y la responsabilidad son <b>esenciales</b> en todas las operaciones de un ",
+                "position": {
+                    "x": 33,
+                    "y": 55
+                }
+            },
+            {
+                "id": 4,
+                "title": "",
+                "text": "Es importante comprender el amplio rango de habilidades, capacidades y conocimiento requerido para llevar a cabo dichas operaciones riesgosas <b>de una manera segura</b> y económica., es difícil de comprender.",
+                "position": {
+                    "x": 33,
+                    "y": 67
+                }
+            },
+            {
+                "id": 5,
+                "title": "",
+                "text": "Con un entendimiento básico acerca de todas las tareas y habilidades requeridas, se debe establecer <b>las condiciones en las cuales surge cada problema y situación </b>",
+                "position": {
+                    "x": 62,
+                    "y": 32
+                }
+            },
+            {
+                "id": 6,
+                "title": "",
+                "text": "Desarrollar un entendimiento técnico y más profundo <b>es una necesidad para cualquiera que labore en las operaciones de oleoducto.</b>",
+                "position": {
+                    "x": 62,
+                    "y": 43
+                }
+            },
+            {
+                "id": 7,
+                "title": "",
+                "text": "La tarea requiere que cada persona debe <b>familiarizarse con técnicas, programas y equipos sofisticados.</b>",
+                "position": {
+                    "x": 62,
+                    "y": 55
+                }
+            },
+            {
+                "id": 8,
+                "title": "",
+                "text": "Con la información proporcionada en este módulo, se puede aplicar de manera exitosa este entendimiento básico.",
+                "position": {
+                    "x": 62,
+                    "y": 67
+                }
+            }
+
+        ],
+        "fuente": "",
+        "note": " ",
+        "audio": {
+            "src": ""
+        }
+    },
+    {
+        "id": "c-1",
+        "parentId": "m-1",
+        "type": "graphic",
+        "title": "Final del módulo",
+        "layout": "right",
+        "text": "Ha finalizado el módulo:<b> Operaciones de Rutina en Campo e Instalaciones.</b> No olvide que puede regresar a los contenidos y repasar cuantas veces considere necesario.",
+        "img": {
+            "src": "fin67.png",
+            "alt": ""
+        },
+        "_route": 66,
+        "fuente": "",
+        "audio": {
+            "src": "M6_p2_155.mp3"
+        }
+    },
+    {
+        "id": "c-33",
+        "_route": 67,
+        "type": "finish",
+        "audio": ""
+    }
+
+
+
+
+]

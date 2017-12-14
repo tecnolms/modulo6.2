@@ -1,0 +1,9 @@
+.footer {
+  padding: $size-7 0;
+  background-color: $green;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: $zindex-footer;
+  height: $size-1;
+}

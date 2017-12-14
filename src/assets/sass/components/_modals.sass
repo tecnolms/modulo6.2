@@ -1,0 +1,114 @@
+#modals
+
+  .modals-container
+    background-color: transparent
+    @extend .mt-3
+    @extend .mb-3
+
+    .box
+      border-radius: 0
+      box-shadow: none
+      padding: $size-7
+      background-color: $orange
+      color: $white
+      display: flex
+      align-content: space-between
+      justify-content: space-between
+      cursor: pointer
+
+      &.relleno
+        visibility: hidden
+
+      .modal-tile
+        display: flex
+        justify-content: flex-start
+        max-width: 80%
+
+        .tile-id
+          font-family: "Ecopetrol"
+          font-size: $size-4
+          font-weight: bold
+          margin-right: $size-7
+          padding-right: $size-7
+          border-right: 1px solid lighten($orange, 50%)
+          align-self: center
+        
+        .tile-title
+          color: $white
+          margin: 0
+          max-width: 100%
+          align-self: center
+          font-size: $size-6
+          display: flex
+
+          span
+            margin-left: $size-6
+            align-self: center
+
+      .tile-to-see
+        background-color: $white
+        width: 2rem
+        height: 2rem
+        position: relative
+        border-radius: 50%
+        align-self: center
+        text-align: center
+
+      .tile-to-see.seen
+        background-color: $bg-primary
+        &:before
+          font-family: "Material Design Icons"
+          font-size: 1.4rem
+          color: $bg-color-sec
+          font-weight: bold
+          content: mdi(check)
+
+
+.modal-header
+  display: flex
+  align-content: space-between
+  justify-content: flex-start
+  
+
+  .modal-id 
+    font-family: "Ecopetrol"
+    font-size: $size-4
+    font-weight: bold
+    margin-right: $size-7
+    padding-right: $size-7
+    border-right: 1px solid lighten($orange, 50%)
+    align-self: center
+    color: $dark
+  
+  .modal-title
+    color: $dark
+    margin: 0
+    max-width: 100%
+    align-self: center
+    font-size: $size-6
+    white-space: normal
+
+.at-modal__header
+  //background-color: lighten($dark, 60%) !important
+  background-color: #a8ba00 !important
+  display: flex
+  padding: 18px
+  
+  .modal-title
+    max-width: 100%
+    font-size: $size-4
+
+.at-modal__close
+  .icon-x:before
+    color: $white
+    font-size: $size-4
+
+.modal-full .at-modal 
+  width: 850px  !important
+
+.at-modal 
+  width: 650px  !important
+  text-align: left !important
+  &--confirm
+    .at-modal__header
+      padding: 16px 16px 16px 56px

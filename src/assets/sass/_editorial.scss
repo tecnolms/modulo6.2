@@ -1,0 +1,62 @@
+.main-titles {
+  font-family: "Ecopetrol";
+  color: $bg-color-sec;
+}
+
+.main-titles-b {
+  font-family: "Ecopetrol";
+  color: $primary;
+}
+
+h1.eco {
+  font-size: $size-3;
+  @extend .main-titles;
+}
+
+h2.eco {
+  font-size: $size-3;
+  @extend .main-titles;
+}
+
+h3.eco {
+  font-size: $size-3;
+  @extend .main-titles;
+}
+
+h1.eco.b {
+  margin-top: 0.25rem;
+  font-size: $size-3;
+  @extend .main-titles-b;
+}
+
+h2.eco.b {
+  font-size: $size-3;
+  @extend .main-titles-b;
+}
+
+h3.eco.b {
+  font-size: $size-3;
+  @extend .main-titles-b;
+}
+
+.content ul {
+  list-style-image: url("img/list-image.png");
+}
+
+p {
+  color: $grey-dark;
+}
+
+@media screen and (max-widt: $tablet) {
+  h1.eco.b {
+    font-size: $size-3;
+  }
+  h2.eco.b {
+    font-size: $size-3;
+  }
+}
+
+h1.eco.is-x-large {
+  line-height: 1;
+  margin-bottom: $size-7;
+}

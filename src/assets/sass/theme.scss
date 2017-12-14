@@ -1,0 +1,57 @@
+@import url("http://unpkg.com/at-ui-style/css/at.min.css");
+
+@import "_variables";
+@import "_fonts";
+
+// Vendor: ;
+@import "~bulma/bulma";
+@import "mdi/all";
+@import "~animate.css/animate";
+
+// Components;
+@import "components/_components";
+@import "components/_navbar";
+@import "components/_hero";
+@import "components/_footer";
+@import "components/_menu";
+@import "components/_graphic";
+@import "components/_collapse";
+@import "components/_slider";
+@import "components/_flipper";
+@import "components/_media";
+@import "components/_matching";
+@import "components/_modals";
+@import "components/_insoshot";
+@import "components/_canasta";
+@import "components/_pines";
+@import "components/_etapas";
+@import "components/_resumen";
+@import "components/_moduleContent";
+@import "components/_finish";
+@import "components/_infographic";
+@import "components/_mcq";
+@import "components/_trueorfalse";
+
+@import "_utilities";
+@import "_editorial";
+
+#app {
+  background-color: $bg-primary;
+  height: 100vh;
+  background-image: url("img/pattern.png");
+}
+
+.eco-content {
+  position: relative;
+  bottom: 0;
+  top: 0;
+  padding: 3.25rem 0 $size-1 0;
+  height: 100%;
+  margin: 0 !important;
+}
+
+@media screen and (max-width: $tablet) {
+  .eco-content {
+    padding-top: 5.5rem;
+  }
+}

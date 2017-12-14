@@ -1,0 +1,23 @@
+#collapse{
+  .text{
+    font-weight: bold;
+  }
+
+  .at-collapse__header{
+    display: flex;
+    background-color: $bg-blue;
+    padding: $size-7 $size-6;
+
+    h4{
+      margin: 0;
+    }
+
+    .at-collapse__icon{
+      position: unset;
+
+      &::before{
+        content: "\E8B1" !important
+      }
+    }
+  }
+}

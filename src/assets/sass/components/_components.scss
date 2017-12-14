@@ -1,0 +1,46 @@
+.component {
+  background-color: $white;
+  min-height: 100%;
+  .title {
+    min-height: $c-titles;
+    background-color: $bg-color-sec;
+    display: flex;
+    align-items: center;
+    margin-bottom: $size-6;
+  }
+  .content {
+    .instruction {
+      margin-top: $size-6;
+      margin-bottom: $size-6;
+      color: $primary;
+      font-weight: bold;
+      font-style: italic;
+      font-size: $size-6;
+      b {
+        color: $bold-color;
+      }
+      
+      &.bg-green {
+        color: $bg-color-sec;
+
+        b {
+          color: $white;
+        }
+      }
+    }
+
+    .bgmodalgraphics {
+      width: 60%;
+      margin: auto;
+    }
+    .bgmodalgraphics.right {
+      margin: unset;
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+    .container {
+      padding-bottom: 0 !important;
+    }
+  }
+}

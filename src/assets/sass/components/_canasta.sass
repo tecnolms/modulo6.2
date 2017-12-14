@@ -1,0 +1,33 @@
+#canasta
+
+  .drag-list
+    margin-bottom: 3rem
+
+  .drag-item
+    padding: $size-7 $size-6
+    cursor: move
+    box-shadow: 1px 1px 6px 0 $grey-light
+    border-radius: 3px
+    margin: $size-7 0
+    font-size: 0.9rem
+    transition: background-color 0.3s ease-in-out
+    
+    &::first
+      margin: 0
+    
+    &.correct
+      background-color: $bg-color-sec
+
+  .drag-header
+    display: flex
+    align-items: center
+    justify-content: space-around
+    
+    &-img
+      max-width: 30% 
+
+.gu-transit
+  opacity: 0.8
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"
+
+  filter: alpha(opacity=80)

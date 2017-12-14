@@ -1,0 +1,64 @@
+#matching 
+  #activity-container
+    display: flex
+    justify-content: center
+    flex-direction: column;
+
+    svg
+      border: 1px solid $primary
+
+      text
+        font-family: Verdana, Geneva, Tahoma, sans-serif !important
+        font-size: $size-normal !important
+        text-anchor: start !important
+      
+      rect
+        stroke: $bg-primary;
+        stroke-width: 2px;
+
+  .line-items
+    display: flex
+    justify-content: space-between
+    &:not(::first)
+      @extend .mt-3
+    @extend .mb-3
+
+    .item
+      display: flex
+      border-radius: 5px
+      box-shadow: 1px 1px 6px 0 $grey-light
+      padding: $size-7 $size-6 $size-7 $size-3
+      max-width: 40%
+      width: 40%
+      word-wrap: break-word
+      align-items: center
+      cursor: pointer
+
+      &-a
+        text-align: left
+
+      &-b
+        text-align: left
+
+      &:hover
+        background-color: lighten($grey-lighter, 50%) 
+        box-shadow: 1px 1px 8px 0 $grey-light
+        transition: all 0.3s ease-in-out
+      
+      &.matched
+        background-color: $bg-color-sec
+        transition: all 0.3s ease-in-out
+        padding: $size-7 $size-6 $size-7 0
+        
+        &:before
+          font: normal normal normal 28px/1 "Material Design Icons"
+          content: mdi('check')
+          color: $green
+          transition: all 0.3s ease-in-out
+          margin: 0 $size-4
+          font-weight: bolder;
+      
+      &.selected
+        background-color: $yellow
+        transition: all 0.3s ease-in-out
+

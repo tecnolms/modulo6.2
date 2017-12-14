@@ -1,0 +1,48 @@
+#slider
+  &.bg-green
+    background-color: $bg-primary
+  
+    p
+      color: $white
+
+    ul
+      list-style: none
+    
+    li
+      padding-left: 1em
+      text-indent: -.7em
+    
+      &:before
+        content: "• "
+        color: $bg-color-sec
+
+  @media screen and (min-width: $desktop )
+    figure.full img 
+      height: 375px
+      margin: 0 auto
+
+  .tags
+    justify-content: center;
+
+  .VueCarousel-dot
+    padding: 0;
+
+    &--active
+
+      .VueCarousel-dot-inner
+        width: 25px !important
+        height: 25px !important
+        background-color: $bg-color-sec !important
+    
+    &-inner
+      width: 25px !important
+      height: 25px !important
+      background-color: darken($bg-primary, 10%) !important
+      
+
+    
+
+
+  
+
+  

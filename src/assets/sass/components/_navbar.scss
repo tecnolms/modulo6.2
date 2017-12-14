@@ -1,0 +1,67 @@
+.eco-logo {
+  background-image: url("img/logoNav.png");
+  background-size: 80%;
+  width: 15rem;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.navbar-item {
+  padding: 0;
+}
+
+.navbar-brand {
+  min-height: 2rem;
+}
+
+@media (max-width: $tablet) {
+  .eco-logo {
+    width: 15rem;
+    height: 2rem;
+    background-position: center;
+  }
+
+  .navbar-menu {
+    display: block;
+    padding: 0;
+  }
+  .navbar-brand {
+    justify-content: center;
+  }
+
+  .navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+}
+
+.navbar-burger {
+  display: block !important;
+}
+
+.burger span {
+  height: 3px;
+  background-color: $bg-primary;
+  width: 20px;
+  left: 45%;
+}
+
+#course-progress {
+  width: 12rem;
+  margin-right: $size-1;
+}
+
+.eco-navbar {
+  border-bottom: 3px solid $light;
+  box-shadow: 0 3px 9px 0 $dark;
+  z-index: $zindex-menu;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  > .container {
+    min-height: 2rem;
+  }
+}

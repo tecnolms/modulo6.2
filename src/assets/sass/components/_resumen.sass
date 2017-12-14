@@ -1,0 +1,38 @@
+#resumen 
+  .resumen-container
+    height: 25rem
+    overflow-y: scroll
+
+    .resumen-container-inner
+      display: flex
+      flex-direction: column
+      justify-content: space-around
+      min-height: 25rem
+
+    .resumen
+      max-width: 80%
+      box-shadow: 1px 1px 3px $dark
+      border-radius: 0.5rem
+      display: flex
+      justify-content: flex-start
+      margin-top: $size-5
+      padding: $size-7
+      align-items: flex-start
+      margin-left: auto
+      margin-right: auto
+      
+      &:last-of-type
+        margin-bottom: $size-5
+
+      .id
+        border-radius: 50%
+        background-color: $bg-primary
+        color: $bg-color-sec
+        font-size: $size-4
+        margin-right: $size-6
+        width: $size-1
+        height: $size-1
+        text-align: center
+        display: inline-block
+        
+    
